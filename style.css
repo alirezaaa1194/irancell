@@ -447,7 +447,7 @@ border-top: 1px solid #a3a3a3;
   color: #000;
 }
 .fourcard img{
-  transition: .3s;
+  transition: .2s;
   border: 2px solid #bebfbe;
   transform: scale(.75);
   border-radius: 50%;
@@ -455,9 +455,9 @@ border-top: 1px solid #a3a3a3;
 .fourcard{
   background-color: #fff !important;
   border-style:none;
-  box-shadow: 0px 10px 25px #bebfbe;
+  box-shadow: 0px 4px 12px 0 rgb(0 0 0 / 16%);
   border-radius: 13px !important;
-  transition: .3s;
+  transition: .2s;
   cursor: pointer;
 }
 .fourcard:hover{
@@ -468,11 +468,23 @@ border-top: 1px solid #a3a3a3;
   border-color: #fc0;
   transform: scale(.80);
 }
+.boxes .card{
+  height: 90px !important;
+}
 body{
   height: 300vh;
 }
 .boxcont{
   transform: translateY(-40px) !important;
+}
+.seeakhbar{
+  text-decoration: none;
+  color: #fc0;
+  font-weight: bold;
+  font-size: 18px;
+}
+.seeakhbar:hover{
+  color: #fc0;
 }
 @media screen and (max-width:850px) {
   .submenu{
@@ -583,6 +595,9 @@ body{
   }
   .boxes .card{
     height: 55px !important;
+  }
+  .section3 h4{
+    font-size: 20px !important;
   }
 }
 @media screen and (orientation:landscape) and (max-width:850px){
