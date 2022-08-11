@@ -302,7 +302,7 @@ border-top: 1px solid #a3a3a3;
   position: relative;
 }
 .menu-btn-1 span{
-  transform: scale(.7);
+  transform: scale(.55);
 }
 .menu-btn-1 span,
 .menu-btn-1 span::before,
@@ -494,7 +494,7 @@ body{
   .nav-item:hover .submenu{
     right: 30px;
   }
-
+  
   .nav-item1:hover  .submenu{
     display: inline-flex;
     flex-direction: column;
@@ -555,7 +555,7 @@ body{
     display: none !important;
   }
   .carousel-caption{
-    transform: scale(.45) !important;
+    transform: scale(.5) !important;
     bottom: -50px !important;
     right: -90px !important;
   }
@@ -563,10 +563,10 @@ body{
     top: -50px;
   }
   .carousel-control-next i , .carousel-control-prev i{
-    transform: scale(.7);
+    transform: scale(.8);
   }
   .carousel-indicators{
-    transform: translate(-110px , -10px) scale(.8);
+    transform: translate(-130px , -10px) scale(1);
   }
 
   .boxcont{
@@ -580,6 +580,9 @@ body{
   }
   .fourcard:hover img{
     transform: scale(.55);
+  }
+  .boxes .card{
+    height: 55px !important;
   }
 }
 @media screen and (orientation:landscape) and (max-width:850px){
