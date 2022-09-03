@@ -22,6 +22,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <style>  
     </style>
   </head>
@@ -49,7 +53,7 @@
           <!-- <i class="bi bi-x-circle d-block d-xl-none mx-2"></i> -->
           <div class="d-inline-flex align-items-center justify-content-between d-xl-none p-1 mx-3 box">
             <input type="text" class="txt">
-            <i class="bi bi-search px-2"></i>
+            <a href=""><i class="bi bi-search px-2"></i></a>
           </div>
           <a class="navbar-brand m-0 p-0" href="#">
             <span class="d-flex flex-column align-items-center justify-content-center logo m-0 p-0">
@@ -62,62 +66,73 @@
             <ul class="navbar-nav me-auto mb-2 px-0 px-xl-4 mb-lg-0 w-100">
               <li class="nav-item nav-item1">
                 <a class="nav-link nav-link1 d-flex align-items-center active">
-                  <span>فروشگاه</span>
-                  <i class="fas fa-chevron-down mx-1"></i>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span title="فروشگاه">فروشگاه</span>
+                      <i class="fas fa-chevron-down mx-1"></i>
+                    </div>
                   <ul class="submenu">
-                      <li class="h py-3"><a href="" class="ha p-1">ali</a> 
+                      <li class="h py-3 px-3"><a class="ha p-1 mx-2" title="خرید سیمکارت">خرید سیمکارت</a> 
+                        <div class="greencirclebox d-flex align-items-center justify-content-center">
+                          <i class="fas fa-chevron-left"></i>
+                        </div>
+                          <ul class="submenu2">
+                              <li class="px-3 py-3"><a href="" class="me-3" title="سیمکارت اعتباری">سیمکارت اعتباری</a></li>
+                              <li class="px-3 py-3"><a href="" class="me-3" title="سیمکارت دائمی">سیمکارت دائمی</a></li>
+                              <li class="px-3 py-3"><a href="" class="me-3" title="سیمکارت دائمی0900">سیمکارت دائمی0900</a></li>
+                              <li class="px-3 py-3"><a href="" class="me-3" title="سیمکارت حرفه ای">سیمکارت حرفه ای</a></li>
+                              <li class="px-3 py-3"><a href="" class="me-3" title="سیمکارت ویژه مودم ثابتTD-LTE">سیمکارت ویژه مودم ثابتTD-LTE</a></li>
+                          </ul>
+                      </li>
+
+
+                      <li class="px-3 py-3"><a class="mx-2" title="خرید بسته">خرید بسته</a> 
                         <div class="greencirclebox d-flex align-items-center justify-content-center">
                           <span class="greencircle mx-2"></span>
                           <i class="fas fa-chevron-left"></i>
                         </div>
                           <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
+                              <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="بسته اینترنت همراه 4G">بسته اینترنت همراه 4G</a> <span class="greencircle2"></span></li>
+                              <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="بسته اینترنت ثابتTD-LTE">بسته اینترنت ثابتTD-LTE</a></li>
+                              <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="بسته اینترنت رومینگ">بسته اینترنت رومینگ</a></li>
+                              <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="بسته های اختصاصی">بسته های اختصاصی</a><span class="greencircle2"></span></li>
+                              <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="بسته فعالسازی مجدد مودمTDLTE">بسته فعالسازی مجدد مودمTDLTE</a></li>
+                              <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="بسته مکالمه">بسته مکالمه</a><span class="greencircle2"></span></li>
+                              <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="بسته های ترکیبی">بسته های ترکیبی</a></li>
+                              <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="بسته بوم بوم*">بسته بوم بوم*</a><span class="greencircle2"></span></li>
                           </ul>
                       </li>
 
-
-                      <li class=""><a href="">ali</a> 
+                      <li class="p-3"><a class="mx-2" title="دستگاه ها">دستگاه ها</a> 
                         <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
                           <i class="fas fa-chevron-left"></i>
                         </div>
                           <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
+                              <li class="p-3"><a href="" class="mx-3" title="خرید مودم+سیمکارت">خرید مودم+سیمکارت</a></li>
+                              <li class="p-3"><a href="" class="mx-3" title="خرید گوشی+سیمکارت">خرید گوشی+سیمکارت</a></li>
+                              <li class="p-3"><a href="" class="mx-3" title="خرید تجهیزات خانه هوشمند">خرید تجهیزات خانه هوشمند</a></li>
                           </ul>
                       </li>
-                      <li class=""><a href="">ali</a> 
+
+
+                      <li class="p-3"><a class="mx-2" title="حراج شماره های رند">حراج شماره های رند</a> 
                         <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
                           <i class="fas fa-chevron-left"></i>
                         </div>
                           <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
+                              <li class="p-3"><a href="" class="mx-3" title="پرتال حراج شماره های رند">پرتال حراج شماره های رند</a></li>
+                              <li class="p-3"><a href="" class="mx-3" title="باشگاه مشتریان شماره های رند">باشگاه مشتریان شماره های رند</a></li>
                           </ul>
                       </li>
 
 
-                      <li class=""><a href="">ali</a> 
+                      <li class="p-3"><a class="mx-2" title="پرداخت قبض سیمکارت دائمی">پرداخت قبض سیمکارت دائمی</a> 
+                      </li>
+                      <li class="p-3"><a class="mx-2" title="خرید آنلاین شارژ ایرانسل">خرید آنلاین شارژ ایرانسل</a> 
                         <div class="greencirclebox d-flex align-items-center justify-content-center">
                           <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
                         </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
                       </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                        </div>
+                      <li class="p-3"><a class="mx-2" title="دریافت شارژ اینترنت اضطراری">دریافت شارژ اینترنت اضطراری</a> 
                       </li>
 
                   </ul>
@@ -125,306 +140,193 @@
               </li>
               <li class="nav-item nav-item2 mx-0 mx-xl-2">
                 <a class="nav-link nav-link2 d-flex align-items-center active">
-                  <span>فروشگاه</span>
-                  <i class="fas fa-chevron-down mx-1"></i>
+               <div class="d-flex align-items-center justify-content-center dbbox">
+                <span class="p-0 m-0" title="محصولات و خدمات">محصولات و خدمات</span>
+                <i class="fas fa-chevron-down mx-1"></i>
+               </div>
                   <ul class="submenu">
-                      <li class="h py-3"><a href="" class="ha p-1">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
+                    <li class="h py-3 px-3"><a class="ha p-1 mx-2" title="خدمات سیمکارت">خدمات سیمکارت</a> 
+                      <div class="greencirclebox d-flex align-items-center justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                        <ul class="submenu2">
+                            <li class="px-3 py-3"><a href="" class="me-3" title="تبدیل سیمکارت اعتباری به دائمی">تبدیل سیمکارت اعتباری به دائمی</a></li>
+                            <li class="px-3 py-3"><a href="" class="me-3" title="تبدیل سیمکارت3G به 4G">تبدیل سیمکارت3G به 4G</a></li>
+                            <li class="px-3 py-3"><a href="" class="me-3" title="تعویض سیمکارت نسل چهارم(4G)">تعویض سیمکارت نسل چهارم(4G)</a></li>
+                            <li class="px-3 py-3"><a href="" class="me-3" title="افزایش سقف مصرف مجاز">افزایش سقف مصرف مجاز</a></li>
+                            <li class="px-3 py-3"><a href="" class="me-3" title="ویرایش اطلاعات مشترکان اینترنت ثابت...">ویرایش اطلاعات مشترکان اینترنت ثابت...</a></li>
+                        </ul>
+                    </li>
 
 
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
+                    <li class="px-3 py-3"><a class="mx-2" title="روش های شارژ و پرداخت">روش های شارژ و پرداخت</a> 
+                      <div class="greencirclebox d-flex align-items-center justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                        <ul class="submenu2">
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="روش های شارژ مستقیم">روش های شارژ مستقیم</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="روش های پرداخت قبض سیمکارت">روش های پرداخت قبض سیمکارت</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="روش های خرید">روش های خرید</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="px-3 py-3"><a class="mx-2" title="اینترنت پرسرعت">اینترنت پرسرعت</a> 
+                      <div class="greencirclebox d-flex align-items-center justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                        <ul class="submenu2">
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="اینترنت پرسرعت همراه">اینترنت پرسرعت همراه</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="اینترنت پرسرعت ثابت">اینترنت پرسرعت ثابت</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="اینترنت پرسرعت چندکاره">اینترنت پرسرعت چندکاره</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="اینترنت وای فای ایرانسل">اینترنت وای فای ایرانسل</a></li>
+                        </ul>
+                    </li>
 
 
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
+                    <li class="px-3 py-3"><a class="mx-2" title="محصولات و خدمات دیجیتال">محصولات و خدمات دیجیتال</a> 
+                      <div class="greencirclebox d-flex align-items-center justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                        <ul class="submenu2">
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="مدیریت حساب ایرانسل من">مدیریت حساب ایرانسل من</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="تلویزیون اینترنتی لنز">تلویزیون اینترنتی لنز</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="سرویس پخش زنده ایرانسل">سرویس پخش زنده ایرانسل</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="کیف پول دیجیتال جیب جت">کیف پول دیجیتال جیب جت</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="دانا پلاس">دانا پلاس</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="اپلیکیشن پیشواز هوشمند">اپلیکیشن پیشواز هوشمند</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="فضای زخیره سازی ابرتو">فضای زخیره سازی ابرتو</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="چارخونه">چارخونه</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="دانا">دانا</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="خدمات ویژه کودک و نوجوان">خدمات ویژه کودک و نوجوان</a></li>
+                        </ul>
+                    </li>
 
 
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-                  </ul>
+                    <li class="px-3 py-3"><a class="mx-2" title="خدمات مکالمه">خدمات مکالمه</a> 
+                      <div class="greencirclebox d-flex align-items-center justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                        <ul class="submenu2">
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="بسته های مکالمه و تعرفه ها">بسته های مکالمه و تعرفه ها</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="رومینگ">رومینگ</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="ارتباط بین المللی">ارتباط بین المللی</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="تماس از طریق voLTE">تماس از طریق voLTE</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="میزبان تماس">میزبان تماس</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="لطفا با من تماس یگیرید">لطفا با من تماس یگیرید</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="اعلام تماس های ناموفق">اعلام تماس های ناموفق</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="اعلام بازگشت به شبکه">اعلام بازگشت به شبکه</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="پیام گیر صوتی">پیام گیر صوتی</a></li>
+                        </ul>
+                    </li>
+                    <li class="px-3 py-3"><a class="mx-2" title="خدمات پیام رسانی">خدمات پیام رسانی</a> 
+                      <div class="greencirclebox d-flex align-items-center justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                        <ul class="submenu2">
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="میزبان پیامک">میزبان پیامک</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="آوای ناشنوا">آوای ناشنوا</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="پیامک صوتی">پیامک صوتی</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="پیامک هدیه">پیامک هدیه</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="پیام چندرسانه ای">پیام چندرسانه ای</a></li>
+                        </ul>
+                    </li>
+                    <li class="px-3 py-3"><a class="mx-2" title="خدمات مودم">خدمات مودم</a> 
+                      <div class="greencirclebox d-flex align-items-center justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                        <ul class="submenu2">
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="عیب یابی و تعمیر مودم های ایرانسل">عیب یابی و تعمیر مودم های ایرانسل</a></li>
+                        </ul>
+                    </li>
+                    <li class="px-3 py-3"><a href="" class="mx-2" title="کد های دستوری ایرانسل">کد های دستوری ایرانسل</a> 
+                      <li class="px-3 py-3"><a href="" class="mx-2" title="روش های مدیریت حساب">روش های مدیریت حساب</a> 
+                        <li class="px-3 py-3"><a href="" class="mx-2" title="خدمات امداد رسان">خدمات امداد رسان</a> 
+                    </li>
+                </ul>
                 </a>
               </li>
               <li class="nav-item nav-item3 mx-0 mx-xl-2">
-                <a class="nav-link nav-link2 d-flex align-items-center active">
-                  <span>فروشگاه</span>
+                  <a class="nav-link nav-link2 d-flex align-items-center active">
+                    <div class="d-flex align-items-center justify-content-center dbbox">
+                    <span title="جشنواره ها">جشنواره ها</span>
                   <i class="fas fa-chevron-down mx-1"></i>
+                </div>
                   <ul class="submenu">
-                      <li class="h py-3"><a href="" class="ha p-1">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
+                      <li class="px-3 py-3 h"><a href="" class="mx-2 ah" title="کد های دستوری ایرانسل">کد های دستوری ایرانسل</a> 
+                        <li class="px-3 py-3"><a href="" class="mx-2" title="روش های مدیریت حساب">روش های مدیریت حساب</a> </li>
+                          <li class="px-3 py-3"><a href="" class="mx-2" title="خدمات امداد رسان">خدمات امداد رسان</a> </li>
                   </ul>
                 </a>
               </li>
               <li class="nav-item nav-item4 mx-0 mx-xl-2">
                 <a class="nav-link nav-link2 d-flex align-items-center active">
-                  <span>فروشگاه</span>
+                  <div class="d-flex align-items-center justify-content-center dbbox">
+                    <span title="پشتیبانی">پشتیبانی</span>
                   <i class="fas fa-chevron-down mx-1"></i>
+                  </div>
                   <ul class="submenu">
-                      <li class="h py-3"><a href="" class="ha p-1">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
+                    <li class="h px-3 py-3"><a class="ah2 mx-2" title="تماس با ایرانسل">تماس با ایرانسل</a> </li>
+                    <li class="px-3 py-3"><a class="mx-2" title="مناطق تحت پوشش">مناطق تحت پوشش</a></li>
+                    <li class="px-3 py-3"><a class="mx-2" title="نمایندگی های ایرانسل">نمایندگی های ایرانسل</a> 
+                      <div class="greencirclebox d-flex align-items-center justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                      </div>
+                        <ul class="submenu2" style="width: 300px;">
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="مراکز فروش و خدمات ایرانسل">مراکز فروش و خدمات ایرانسل</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title=">مراکز ارتباط با ایرانسل ، فروش و خدمات...">مراکز ارتباط با ایرانسل ، فروش و خدمات...</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="نمایندگان فروش">نمایندگان فروش</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="توضیع کنندگان عمده">توضیع کنندگان عمده</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="نمایندگان حقوقی">نمایندگان حقوقی</a></li>
+                            <li class="py-3"><a href="" class="me-3 px-0" style="width: 100%;" title="دیجیتال سنتر ایرانسل">دیجیتال سنتر ایرانسل</a></li>
+                        </ul>
                       </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-                  </ul>
-                </a>
+                </ul>
               </li>
               <li class="nav-item nav-item5 mx-0 mx-xl-2">
                 <a class="nav-link nav-link2 d-flex align-items-center active">
-                  <span>فروشگاه</span>
+                  <div class="d-flex align-items-center justify-content-center dbbox">
+                    <span title="همکاری با ما">همکاری با ما</span>
                   <i class="fas fa-chevron-down mx-1"></i>
+                  </div>
                   <ul class="submenu">
-                      <li class="h py-3"><a href="" class="ha p-1">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
-
-                      <li class=""><a href="">ali</a> 
-                        <div class="greencirclebox d-flex align-items-center justify-content-center">
-                          <span class="greencircle mx-2"></span>
-                          <i class="fas fa-chevron-left"></i>
-                        </div>
-                          <ul class="submenu2">
-                              <li><a href="">ali</a> <span class="greencircle2"></span></li>
-                              <li><a href="">ali</a></li>
-                              <li><a href="">ali</a></li>
-                          </ul>
-                      </li>
-
+                    <li class="h px-3 py-3"><a href="" class="ah2 mx-2" title="استخدام در ایرانسل">استخدام در ایرانسل</a> </li>
+                    <li class="px-3 py-3"><a href="" class="mx-2" title="کارآموزی در ایرانسل">کارآموزی در ایرانسل</a> </li>
+                    <li class="px-3 py-3"><a href="" class="mx-2" title="همکاری با (ایرانسل من)">همکاری با (ایرانسل من)</a> </li>
+                    <li class="px-3 py-3"><a href="" class="mx-2" title="برنامه های دانشجویی ایرانسل من">برنامه های دانشجویی ایرانسل من</a> </li>
+                    <li class="px-3 py-3"><a href="" class="mx-2" title="حمایت های مالی">حمایت های مالی</a> </li>
+                    <li class="px-3 py-3"><a href="" class="mx-2" title="مناقصه و اطلاعیه ها">مناقصه و اطلاعیه ها</a> </li>
                   </ul>
                 </a>
               </li>
-              <li class="nav-item mx-0 mx-xl-2">
-                <a href="" class="nav-link active">وبلاگ</a>
+              <li class="nav-item nav-item6 mx-0 mx-xl-2">
+                <div class="d-flex align-items-center justify-content-center dbbox">
+                  <a href="" class="nav-link active" title="وبلاگ">وبلاگ</a>
+                </div>
               </li>
-              <li class="nav-item mx-0 mx-xl-2">
-                <a href="" class="nav-link active">اخبار</a>
+              <li class="nav-item nav-item7 mx-0 mx-xl-2">
+                <div class="d-flex align-items-center justify-content-center dbbox">
+                  <a href="" class="nav-link active" title="اخبار">اخبار</a>
+                </div>
               </li>
-              <li class="nav-item mx-0 mx-xl-2">
-                <a href="" class="nav-link active">ترابرد ایرانسل</a>
+              <li class="nav-item nav-item8 mx-0 mx-xl-2">
+                <div class="d-flex align-items-center justify-content-center dbbox">
+                <a href="" class="nav-link active" title="ترابرد ایرانسل">ترابرد ایرانسل</a>
+              </div>
               </li>
-
             </ul>
           </div>
 
         </div>
         <label for="ch1">
-          <i class="bi bi-search px-5 ic1"></i>
-          <i class="bi bi-x-circle px-5 d-none ic2"></i>
+          <i class="bi bi-search mx-5 ic1"></i>
+          <i class="bi bi-x-circle mx-5 d-none ic2"></i>
         </label>
       </nav>
-      <div class="d-none py-2 textbox">
+
+      <!-- show/hiden textbox -->
+      <div class="py-2 textbox animate__animated">
         <input type="text" class="px-2 txt1" placeholder="جستجو کنید...">
-        <i class="bi bi-search p-2 py-0 ic3"></i>
+        <a href=""><i class="bi bi-search p-2 py-0 ic3"></i></a>
       </div>
     </div>
 
@@ -547,7 +449,7 @@
   </div>
 </div>
 <!-- section2 -->
-<div class="container boxcont">
+<div class="container-fluid container-xl boxcont">
   <div class="row justify-content-center boxes g-2 g-xl-3">
     <div class="col-6 col-xl-3">
       <div class="card d-flex flex-row align-items-center justify-content-start fourcard px-0 m-0 py-0 py-xl-3">
@@ -595,13 +497,13 @@
   </div>
 </div>
 <!-- section3 -->
-<div class="container section3 mt-3 mt-xl-4">
-  <div class="row align-items-center justify-content-between">
-    <div class="col-7 col-xl-3">
-      <h4 class="fw-bold">تازه ترین ها در ایرانسل</h4>
+<div class="container-fluid container-xl section3 mt-3 mt-xl-4">
+  <div class="row align-items-center justify-content-between p-1 px-3">
+    <div class="col-8 col-xl-3">
+      <h4 class="fw-bold p-0 m-0">تازه ترین ها در ایرانسل</h4>
     </div>
-    <div class="col-5 col-xl-2">
-      <a href="" class="d-flex align-items-center justify-content-center seeakhbar">
+    <div class="col-4 col-xl-2 p-0 d-flex justify-content-end">
+      <a href="" class="d-flex align-items-center justify-content-center seeakhbar m-0">
         <span class="m-0 p-0 mx-1">مشاهده اخبار </span>
         <i class="fas fa-chevron-left m-0 p-0 mx-1"></i>
       </a>

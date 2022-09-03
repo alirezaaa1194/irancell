@@ -14,7 +14,7 @@
   z-index: 1000;
 }
 .submenu li{
-  background-color: #343a40;
+  background-color: #1d1d1d;
   color: #fff;
   padding: 10px 12px 10px 12px;
   width: 100%;
@@ -34,7 +34,7 @@
   position: absolute;
   right: 250px;
   top: 0px;
-  width: 200px;
+  width: 250px;
   z-index: 1000;
 }
 .submenu2 li{
@@ -54,7 +54,12 @@
   position: absolute;
   right: 10px;
 }
-
+.ah{
+  transform: translateX(62px);
+}
+.ah2{
+  transform: translateX(100px);
+}
 .submenu2 li:first-child{
   border-top-right-radius: 15px !important;
   border-top-left-radius: 15px !important;
@@ -70,20 +75,23 @@
   color: #fff;
   text-decoration: none;
   padding: 0px;
-  font-size: 18px;
+  font-size: 14px;
+}
+.submenu i{
+  font-size: 12px !important;
 }
 .submenu li:hover .submenu2{
   visibility: visible;
 }
 .submenu li:hover{
-background-color: #6c757d;
+background-color: #343a40;
 transition: .3s;
 cursor: pointer;
 }
 .greencircle{
-  width:12.5px;
-  height:12.5px;
-  border-radius:12.5px !important;
+  width:12px;
+  height:12px;
+  border-radius:12px !important;
   background-color: #0faf4b;
 }
 .greencircle2{
@@ -137,7 +145,29 @@ cursor: pointer;
   color: #000;
   font-weight: bold !important;
   font-size: 14px !important;
-
+}
+@media screen and (min-width:800px){
+  .nav-item2 .nav-link .dbbox span{
+    width: 120px !important;
+  }
+  .nav-item3 .nav-link .dbbox{
+    width: 90px !important;
+  }
+  .nav-item4 .nav-link .dbbox{
+    width: 90px !important;
+  }
+  .nav-item5 .nav-link .dbbox{
+    width: 90px !important;
+  } 
+}
+.nav-item6 .dbbox{
+  width: 40px !important;
+}
+.nav-item7 .dbbox{
+  width: 40px !important;
+}
+.nav-item8 .dbbox{
+  width: 90px !important;
 }
 .navbar-brand .logo {
   width: 90px;
@@ -159,6 +189,9 @@ cursor: pointer;
   border-radius: 22px;
   transition: .4s;
   width: 30px;
+}
+.box a , .box a:hover{
+  color: #000;
 }
 .box:hover{
   border: 2px solid black;
@@ -188,6 +221,12 @@ cursor: pointer;
 .ch1{
   display: none;
 }
+.ic1, .ic2{
+  cursor: pointer;
+  position: absolute;
+  left: -10px;
+  top: 38px;
+}
 .ch1:checked ~ .container-fluid .row .col-12 .navbar label .ic1{
   display: none !important;
 }
@@ -198,9 +237,59 @@ cursor: pointer;
   background-color: #fff;
   box-shadow: 0px 0px 10px black;
   border-radius: 3px;
-  transform: translate(-800px , 10px);
   position: absolute;
+  right: 800px;
+  top: 88px;
   z-index: 100;
+}
+.textbox a , .textbox a:hover{
+  color: #000;
+}
+
+.ch1:checked ~ .container-fluid .row .col-12 .textbox{
+  display: inline-flex !important;
+  animation-name: per;
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+@keyframes per{
+  0%{
+      transform: perspective(400px) rotateX(90deg);
+      animation-timing-function: ease-in;
+      opacity: 0;
+  }
+  40%{
+      transform: perspective(400px) rotateX(-20deg);
+      animation-timing-function: ease-in;
+  }
+  60%{
+      transform: perspective(400px) rotateX(10deg);
+      opacity: 1;
+  }
+  80%{
+      transform: perspective(400px) rotateX(-5deg);
+  }
+  100%{
+      transform: perspective(400px);
+  }
+}
+.ch1:not(:checked) ~ .container-fluid .row .col-12 .textbox{
+  animation-name: per2;
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+@keyframes per2{
+  0% {
+  transform: perspective(400px);
+}
+30% {
+  transform: perspective(400px) rotateX(-20deg);
+  opacity: 1;
+}
+100% {
+  transform: perspective(400px) rotateX(90deg);
+  opacity: 0;
+}
 }
 .txt1{
   border-style: none;
@@ -544,7 +633,7 @@ body{
     top: 220px;
   }
   .nav-item{
-    width: 100%;
+    width: 200px;
   }
   .nav-link{
     font-size: 17px !important;
@@ -599,6 +688,9 @@ body{
   .section3 h4{
     font-size: 20px !important;
   }
+  .seeakhbar{
+    font-size: 13px !important;
+  }
 }
 @media screen and (orientation:landscape) and (max-width:850px){
   .carousel-caption{
@@ -624,5 +716,8 @@ body{
   }
   .fourcard:hover img{
     transform: scale(.7);
+  }
+  .seeakhbar{
+    font-size: 15px !important;
   }
 }
