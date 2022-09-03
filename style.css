@@ -569,7 +569,13 @@ body{
     z-index: 9;
   } 
   .submenu2{
-    right: 150px;
+    right: 100px !important;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+  } 
+  .submenu21{
+    right: 50px !important;
     top: 0px;
     position: absolute;
     z-index: 10;
@@ -675,7 +681,7 @@ body{
     font-size: 20px !important;
   }
   .seeakhbar{
-    font-size: 13px !important;
+    font-size: 15px !important;
   }
 }
 @media screen and (min-width:800px){
