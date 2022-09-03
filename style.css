@@ -146,20 +146,6 @@ cursor: pointer;
   font-weight: bold !important;
   font-size: 14px !important;
 }
-@media screen and (min-width:800px){
-  .nav-item2 .nav-link .dbbox span{
-    width: 120px !important;
-  }
-  .nav-item3 .nav-link .dbbox{
-    width: 90px !important;
-  }
-  .nav-item4 .nav-link .dbbox{
-    width: 90px !important;
-  }
-  .nav-item5 .nav-link .dbbox{
-    width: 90px !important;
-  } 
-}
 .nav-item6 .dbbox{
   width: 40px !important;
 }
@@ -691,6 +677,20 @@ body{
   .seeakhbar{
     font-size: 13px !important;
   }
+}
+@media screen and (min-width:800px){
+  .nav-item2 .nav-link .dbbox span{
+    width: 120px !important;
+  }
+  .nav-item3 .nav-link .dbbox{
+    width: 90px !important;
+  }
+  .nav-item4 .nav-link .dbbox{
+    width: 90px !important;
+  }
+  .nav-item5 .nav-link .dbbox{
+    width: 90px !important;
+  } 
 }
 @media screen and (orientation:landscape) and (max-width:850px){
   .carousel-caption{
