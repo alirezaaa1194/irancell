@@ -16,6 +16,9 @@ searchlink.addEventListener("click", function a(){
     txt.style.width='100%'
     txt.style.paddingRight='3px'
     txt.style.paddingLeft='3px'
+    if(txt.value.length>0){
+        box.style.backgroundColor='#fff'
+    }
     })
 function banone(){
     box.style.background='none'
