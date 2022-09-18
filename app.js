@@ -12,7 +12,6 @@ txt.style.paddingRight='3px'
 txt.style.paddingLeft='3px'
 })
 searchlink.addEventListener("click", function a(){
-    box.style.backgroundColor='#fff'
     box.style.width='150px'
     txt.style.width='100%'
     txt.style.paddingRight='3px'
