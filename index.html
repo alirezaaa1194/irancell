@@ -37,11 +37,6 @@
     <div class="col-12 col-xl-10 p-0">
       <nav class="navbar navbar-expand-xl py-2 py-xl-4" style="background-color:#fc0 !important;">
         <div class="container-fluid">
-          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> -->
-
-
           <button class="navbar-toggler  shadow-none border-0" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
             <div class="all-btn">
               <div class="menu-btn-1" onclick="menuBtnFunction(this)">
@@ -51,9 +46,9 @@
           </button>
         <div class="d-flex align-items-center">
           <!-- <i class="bi bi-x-circle d-block d-xl-none mx-2"></i> -->
-          <div class="d-inline-flex align-items-center justify-content-between d-xl-none p-1 mx-3 box">
-            <input type="text" class="txt">
-            <a><i class="bi bi-search px-2"></i></a>
+          <div class="d-inline-flex align-items-center justify-content-between d-xl-none p-1 mx-3 box" id="box">
+            <input type="text" class="txt" id="txt" onblur="banone()">
+            <a id="searchlink"><i class="bi bi-search px-2"></i></a>
           </div>
           <a class="navbar-brand m-0 p-0" href="#">
             <span class="d-flex flex-column align-items-center justify-content-center logo m-0 p-0">
