@@ -36,3 +36,9 @@ box.addEventListener("click", function b(){
         searchlink.setAttribute('href', 'https://google.com');
     }
 })
+
+
+
+
+
+

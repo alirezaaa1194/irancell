@@ -26,8 +26,19 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  <link rel="canonical" href="https://codepen.io/adityarahmanda/pen/zYjrEyd">
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <style>  
     </style>
+    <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-7549a40147ccd0ba0a6b5373d87e770e49bb4689f1c2dc30cccc7463f207f997.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-5e03f34e38152f20eb79c96b0b89c2d99c5085e9ae9386dc71e2f0b3c30bf513.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
   </head>
   <body dir="rtl" class="bg-light">
      <input type="checkbox" id="ch1" class="ch1">
@@ -503,10 +514,75 @@
         <i class="fas fa-chevron-left m-0 p-0 mx-1"></i>
       </a>
     </div>
-  </div>
 </div>
+<div class="container mt-3">
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">  
+        <div class="swiper-image">
+          <div class="image"><img src="	https://irancell.ir/wp-content/uploads/2022/09/14010619-Arbaein.jpg" class="img-fluid" alt="">
+          <a href="" class="cover"><span>ایرانسل تازه ترین بسته های رومینگ اربعین را معرفی کرد</span></a>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="swiper-image">
+          <div class="image"><img src="	https://irancell.ir/wp-content/uploads/2022/09/14010622-irancell-digital-mining-640x480.jpeg" class="img-fluid" alt="">
+            <a href="" class="cover"><span>ایرانسل با 5G به رویداد معدنکاری دیجیتال آمد</span></a>
+            </div>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="swiper-image">
+          <div class="image"><img src="https://irancell.ir/wp-content/uploads/2022/09/Arbaein-Lenz-640x480.jpg" class="img-fluid" alt="">
+            <a href="" class="cover"><span>تماشای زنده اجتماعی اربعین از دریچه «لنز»</span></a>
+            </div>
+        </div>
+      </div>
+
+      <!-- slide 4 -->
+      <div class="swiper-slide">
+        <div class="swiper-image">
+          <div class="image"><img src="	https://irancell.ir/wp-content/uploads/2022/09/01-Tamarchin-640x480.jpg" class="img-fluid" alt="">
+            <a href="" class="cover"><span>توسعه ارتباطی تمرچین برای تسهیل ارتباطات اربعین</span></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- If we need navigation buttons -->
+  <button class="carousel-control-next" type="button">
+    <i class="fas fa-chevron-right p-2"></i>
+  </button>
+  <button class="carousel-control-prev" type="button">
+    <i class="fas fa-chevron-left p-2"></i>
+  </button>
+</div>
+</div>
+<script type="module">
+ import Swiper from " https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js";
+const swiper = new Swiper('.swiper', {
+  loop: true,
+  slidesPerView: 'auto',
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: true
+  },
+  centeredSlides: true,
+  navigation: {
+    prevEl: '.carousel-control-next',
+    nextEl: '.carousel-control-prev',
+  }
+});
+
+</script>
     <script src="./app.js"></script>
     <!-- bootrstrap 5 -->
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
